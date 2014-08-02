@@ -1,0 +1,233 @@
+body, div,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, nav, section, audio, canvas, video {
+  display: block; }
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+  html body {
+    min-height: 100%;
+    font-size: 100%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  suptop: -0.5em;
+  subbottom: -0.25em; }
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+b, strong {
+  font-weight: bold; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a img, img {
+  -ms-interpolation-mode: bicubic;
+  border: 0; }
+
+input, textarea, button, select {
+  margin: 0;
+  font-size: 100%;
+  line-height: normal;
+  vertical-align: baseline; }
+  input button,
+  input html input[type="button"],
+  input input[type="reset"],
+  input input[type="submit"], textarea button, textarea html input[type="button"], textarea input[type="reset"], textarea input[type="submit"], button button, button html input[type="button"], button input[type="reset"], button input[type="submit"], select button, select html input[type="button"], select input[type="reset"], select input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button; }
+  input input[type="checkbox"],
+  input input[type="radio"], textarea input[type="checkbox"], textarea input[type="radio"], button input[type="checkbox"], button input[type="radio"], select input[type="checkbox"], select input[type="radio"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box; }
+  input textarea, textarea textarea, button textarea, select textarea {
+    overflow: auto; }
+
+::selection {
+  background: #c1304c;
+  color: white; }
+
+::-moz-selection {
+  background: #c1304c;
+  color: white; }
+
+img::selection {
+  background: transparent; }
+
+img::-moz-selection {
+  background: transparent; }
+
+body {
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0.62); }
+
+a {
+  color: #1c6daa;
+  display: inline-block; }
+  a:hover {
+    color: #134b76; }
+
+p, ul {
+  margin: 10px 0; }
+
+ul {
+  list-style: none; }
+  ul li {
+    margin: 0 30px; }
+
+h2 {
+  color: #10255d;
+  font-size: 20px;
+  font-family: “Myriad Pro”, "Arial Narrow", Helvetica, Tahoma, Arial, sans-serif; }
+
+span {
+  color: #041852;
+  font-weight: 800; }
+
+html {
+  background: url(/img/bg.jpg);
+  font-family: "Arial", sans-serif; }
+
+body {
+  background: url(/img/bg_lines.png) top repeat-x; }
+
+#masthead {
+  background: url(/img/bg_header.png) top center no-repeat;
+  height: 754px; }
+
+article {
+  width: 960px;
+  margin: 0 auto;
+  color: #041852;
+  font-size: 16px;
+  position: relative; }
+
+nav li {
+  position: absolute;
+  list-style: none; }
+  nav li a {
+    display: block;
+    width: 100%;
+    height: 100%; }
+  nav li#piluli {
+    width: 190px;
+    height: 67px;
+    top: -498px;
+    left: 1px;
+    background: url(/img/piluli.png); }
+  nav li#a5 {
+    width: 159px;
+    height: 156px;
+    top: -735px;
+    left: 14px; }
+  nav li#vichi {
+    width: 249px;
+    height: 84px;
+    top: -695px;
+    right: 35px; }
+  nav li#code {
+    width: 194px;
+    height: 192px;
+    top: -256px;
+    left: 0px; }
+    nav li#code:hover {
+      background: url(/img/nav_code.png); }
+  nav li#winners {
+    width: 174px;
+    height: 174px;
+    left: 311px;
+    top: -189px; }
+    nav li#winners:hover {
+      background: url(/img/nav_winners.png); }
+  nav li#rules {
+    width: 136px;
+    height: 136px;
+    right: 224px;
+    top: -185px; }
+    nav li#rules:hover {
+      background: url(/img/nav_rules.png); }
+  nav li#list {
+    width: 114px;
+    height: 112px;
+    right: 24px;
+    top: -236px; }
+    nav li#list:hover {
+      background: url(/img/nav_list.png); }
+
+footer {
+  background: url(/img/bg_footer.png) no-repeat right;
+  height: 140px; }
+  footer li {
+    font-size: 24px;
+    font-family: “Myriad Pro”, "Arial Narrow", Helvetica, Tahoma, Arial, sans-serif;
+    float: left;
+    margin-right: 10px;
+    margin-top: 90px; }
+  footer #a5 {
+    position: absolute;
+    bottom: 2px;
+    right: 135px;
+    width: 70px;
+    height: 71px; }
+    footer #a5 a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+
+form {
+  width: 600px;
+  margin: 0 auto; }
+
+label {
+  display: block;
+  margin: 10px 0; }
+
+input {
+  padding: 10px;
+  font-size: 24px; }
+
+input[type=checkbox] {
+  float: left;
+  margin-right: 10px; }
+
+textarea {
+  display: block; }
+
+table {
+  border: 2px solid #badcf4;
+  text-align: center;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.3); }
+
+tr {
+  height: 30px; }
+
+th, td {
+  border: 1px solid #badcf4; }
+
+td:nth-child(2n) {
+  text-align: left;
+  padding-left: 40px; }
