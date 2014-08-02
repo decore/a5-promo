@@ -1,0 +1,104 @@
+- @title = 'Регистрация на участие в акции "Дарим лучшее"'
+img src="/img/h1_code.png"
+form
+    label
+        | Код купона:
+        input
+    label
+        | ФИО:
+        input
+    label
+        | Номер контактного телефона:
+        input
+    label
+        | Пол:
+        input
+    label
+        | Город:
+        input
+    label
+        | Номер чека:
+        input
+    span
+        | Из какого источника Вы узнали о данной Акции?
+        br
+        | Варианты ответов (поставьте галочку):
+    label
+        | в аптеке
+        input type="checkbox" name="drug_store" value="1"
+    label
+        | услышал по радио
+        input type="checkbox" name="radio" value="2"
+    label
+        | увидел плакат
+        input type="checkbox" name="wallpaper" value="3"
+    label
+        | Другое:
+        textarea
+
+
+/ div class="row"
+/     fieldset class="span7"
+/         legend Данные купона и чека
+/         div class="clearfix required"
+/             label for="CouponRegCouponCode" Код купона:
+/             div class="input"
+/                 input name="data[CouponReg][coupon_code]" class="span4" maxlength="7" type="text" id="CouponRegCouponCode"
+/         div class="clearfix required"
+/             label for="CouponRegReceiptNumber" Номер чека:
+/             div class="input"
+/                 input name="data[CouponReg][receipt_number]" class="span4" maxlength="45" type="text" id="CouponRegReceiptNumber"
+/     fieldset class="span7 pull-right"
+/         legend Личная информация
+/         div class="clearfix required"
+/             label for="CouponRegPlayerLastName" Фамилия:
+/             div class="input"
+/                 input name="data[CouponReg][player_last_name]" class="span4" maxlength="45" type="text" id="CouponRegPlayerLastName"
+/         div class="clearfix required"
+/             label for="CouponRegPlayerFirstName" Имя:
+/             div class="input"
+/                 input name="data[CouponReg][player_first_name]" class="span4" maxlength="45" type="text" id="CouponRegPlayerFirstName"
+/         div class="clearfix"
+/             label for="CouponRegPlayerMiddleName" Отчество:
+/             div class="input"
+/                 input name="data[CouponReg][player_middle_name]" class="span4" maxlength="45" type="text" id="CouponRegPlayerMiddleName"
+/         div class="clearfix required"
+/             label for="CouponRegPlayerSexId" Пол:
+/             div class="input"
+/                 select name="data[CouponReg][player_sex_id]" id="CouponRegPlayerSexId"
+/                 option value="" 
+/                 option value="1" Мужчина
+/                 option value="2" Женщина
+/         div class="clearfix required"
+/             label for="CouponRegPlayerCity" Город проживания:
+/             div class="input"
+/                 input name="data[CouponReg][player_city]" class="span4" maxlength="45" type="text" id="CouponRegPlayerCity"
+/         div class="clearfix required"
+/             label for="CouponRegPlayerPhone" Контактный телефон:
+/             div class="input"
+/                 input name="data[CouponReg][player_phone]" class="phone" maxlength="16" type="text" id="CouponRegPlayerPhone"
+/     fieldset class="span7"
+/         legend Дополнительная информация
+/         div class="clearfix"
+/             label Из какого источника Вы узнали о данной Акции?
+/             div class="input"
+/                 ul class="inputs-list"
+/                     li
+/                         label
+/                             input type="checkbox" value="1" name="data[Answer][]"
+/                             span В аптеке
+/                     li
+/                         label
+/                             input type="checkbox" value="2" name="data[Answer][]"
+/                             span Услышал по радио
+/                     li
+/                         label
+/                             input type="checkbox" value="3" name="data[Answer][]"
+/                             span Увидел плакат
+/         div class="clearfix"
+/             label for="CouponRegPlayerAnswer" Из другого источника:
+/             div class="input"
+/                 input name="data[CouponReg][player_answer]" class="span7" maxlength="255" type="text" id="CouponRegPlayerAnswer"
+/     div class="actions bottom"
+/         div class="submit"
+/             input class="btn success" type="submit" value="Зарегистрировать Купон"
